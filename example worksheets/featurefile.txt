@@ -1,0 +1,195 @@
+﻿Feature :ISB Driver prototype
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Polish Version 
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting >Fuctionality tab> country version as Polish Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as France Version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as France Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Germany Version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting >  country version as Germany Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Italy Version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Italy Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as FM Global class country Version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as FM Global  Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Netherlands country version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Netherlands Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Obsolete (DE-Berlin) country version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Obsolete (DE-Berlin) Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Obsolete (DE-Munchen) country version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as DE-Munchen Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Scandinavia country version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Scandinavia Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Singapore country version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Singapore Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Switzerland country version
+Given 1. Test utility placed in FlexQuad/trunk/quadltib/user/Manoj/Cantest_isb.
+2. Sabre evaluation board connected to PCAN view pc via USB convertor cable.
+3. Sabre Evaluation board connected to linux machine via Ethernet static ip 192.168.1.103 and console cable via RS232 port.
+4. Via Terminal > enter in to >minicom< and press reset button in evaluation board.
+5. command >can_setup< for initialization purpose with default baudrate 125Kbits/sec
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Switzerland Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Turkey country version
+Given 
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Turkey Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as UK country version
+Given 
+When 1. In Tools 8000>Configure the Project  > project setting > country version as UK Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as Austria country version
+Given 
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Austria Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"
+
+Scenario : Erase Event log history in FlexES Control Panel project setting as China country version
+Given 
+When 1. In Tools 8000>Configure the Project  > project setting > country version as Austria Version.
+2. Select 'Program Customer Data' and send it to FlexES Control panel.
+3. Select 'Event Memory' tab and Select 'Read' the required event log or entire event log.
+4. Select 'Delete'
+5. Ensure Warning message should appear for confirmation 
+6. Select YES
+Then Ensure Event History updated with event 'Keyboard blocked" Object as "Panel no" and Parameter as " STANDARD"

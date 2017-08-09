@@ -1,0 +1,31 @@
+:01_TextShadow	{container=':_QQuickView' text='01' type='TextShadow' unnamed='1' visible='true'}
+:1_TextShadow	{container=':_QQuickView' text='1' type='TextShadow' unnamed='1' visible='true'}
+:INFORMATION_TextShadow	{container=':list_MenuDelegate_2' text='INFORMATION' type='TextShadow' unnamed='1' visible='true'}
+:Invalid Password_TextShadow	{container=':_QQuickView' text='Invalid Password' type='TextShadow' unnamed='1' visible='true'}
+:LOGIN_TextShadow	{container=':list_MenuDelegate' text='LOGIN' type='TextShadow' unnamed='1' visible='true'}
+:MANAGEMENT_TextShadow	{container=':list_MenuDelegate_3' text='MANAGEMENT' type='TextShadow' unnamed='1' visible='true'}
+:SETTINGS_TextShadow	{container=':list_MenuDelegate_4' text='SETTINGS' type='TextShadow' unnamed='1' visible='true'}
+:Send event_Text	{clip='false' container=':_QmlApplicationViewer' enabled='true' text='Send event' type='Text' unnamed='1' visible='true'}
+:_Image	{container=':_QQuickView' source='qrc:/qml/images/home_glow.svg' type='Image' unnamed='1' visible='true'}
+:_KeyDelegate	{container=':_QQuickView' occurrence='3' radius='0' type='KeyDelegate' unnamed='1' visible='true'}
+:_KeyDelegate_2	{container=':_QQuickView' radius='0' type='KeyDelegate' unnamed='1' visible='true'}
+:_QQuickView	{type='QQuickView' unnamed='1' visible='true'}
+:_QmlApplicationViewer	{type='QmlApplicationViewer' unnamed='1' visible='1'}
+:_Rectangle	{container=':_QQuickView' occurrence='39' radius='0' type='Rectangle' unnamed='1' visible='true'}
+:_Rectangle_2	{clip='false' color='#333333' container=':_QmlApplicationViewer' enabled='true' radius='0' type='Rectangle' unnamed='1' visible='true'}
+:_headerClose_Image	{container=':_QQuickView' id='_headerClose' source='qrc:/qml/icons/icon_x.svg' type='Image' unnamed='1' visible='true'}
+:accessElement_TopbarButton	{container=':_QQuickView' id='accessElement' radius='0' type='TopbarButton' unnamed='1' visible='true'}
+:arrow_Image	{container=':_QQuickView' id='arrow' source='qrc:/qml/icons/triangle.svg' type='Image' unnamed='1' visible='true'}
+:eventTypeSelect_Rectangle	{clip='false' color='#333333' container=':_QmlApplicationViewer' enabled='true' id='eventTypeSelect' radius='0' type='Rectangle' unnamed='1' visible='true'}
+:firealarmScreen_AlarmScreen	{container=':_QQuickView' id='firealarmScreen' radius='0' type='AlarmScreen' unnamed='1' visible='true'}
+:homestatus_Rectangle	{container=':_QQuickView' id='homestatus' radius='0' type='Rectangle' unnamed='1' visible='true'}
+:keyIcon_Image	{container=':_QQuickView' id='keyIcon' source='qrc:/qml/icons/keypadenterbutton.svg' type='Image' unnamed='1' visible='true'}
+:list_ListView	{container=':_QQuickView' id='list' type='ListView' unnamed='1' visible='true'}
+:list_ListView_2	{container=':_QQuickView' id='list' occurrence='2' type='ListView' unnamed='1' visible='true'}
+:list_MenuDelegate	{container=':list_ListView' occurrence='2' radius='0' type='MenuDelegate' unnamed='1' visible='true'}
+:list_MenuDelegate_2	{container=':list_ListView' occurrence='4' radius='0' type='MenuDelegate' unnamed='1' visible='true'}
+:list_MenuDelegate_3	{container=':list_ListView' occurrence='3' radius='0' type='MenuDelegate' unnamed='1' visible='true'}
+:list_MenuDelegate_4	{container=':list_ListView_2' occurrence='5' radius='0' type='MenuDelegate' unnamed='1' visible='true'}
+:menuElement_TopbarButton	{container=':_QQuickView' id='menuElement' radius='0' type='TopbarButton' unnamed='1' visible='true'}
+:passwordTextbox_Rectangle	{container=':_QQuickView' id='passwordTextbox' radius='0' type='Rectangle' unnamed='1' visible='true'}
+:sendEventButton_Rectangle	{clip='false' color='#008000' container=':_QmlApplicationViewer' enabled='true' id='sendEventButton' radius='0' type='Rectangle' unnamed='1' visible='true'}
